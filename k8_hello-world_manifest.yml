@@ -1,13 +1,8 @@
-# Please edit the object below. Lines beginning with a '#' will be ignored,
-# and an empty file will abort the edit. If an error occurs while saving this file will be
-# reopened with the relevant failures.
-#
 apiVersion: batch/v1
 kind: Job
 metadata:
   creationTimestamp: "2020-04-23T15:41:55Z"
   labels:
-    controller-uid: 1c75b49d-e9ba-4ce2-acee-3d1911b29659
     job-name: hello-world
   name: hello-world
   namespace: default
@@ -20,12 +15,10 @@ spec:
   parallelism: 1
   selector:
     matchLabels:
-      controller-uid: 1c75b49d-e9ba-4ce2-acee-3d1911b29659
   template:
     metadata:
       creationTimestamp: null
       labels:
-        controller-uid: 1c75b49d-e9ba-4ce2-acee-3d1911b29659
         job-name: hello-world
     spec:
       containers:
