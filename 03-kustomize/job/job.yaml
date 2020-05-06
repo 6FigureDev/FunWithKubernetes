@@ -1,0 +1,12 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: hello-world-job
+spec:
+  template:
+    spec:
+      containers:
+      - name: hello-world-job
+        image: hello-world:latest
+      restartPolicy: Never
+  backoffLimit: 4
