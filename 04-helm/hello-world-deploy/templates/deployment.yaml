@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-world-helm-deploy
+  labels:
+    app: hello-world-helm-deploy
+spec:
+  replicas: 
+  selector:
+    matchLabels:
+      app: hello-world-helm-deploy
+  template:
+    metadata:
+      labels:
+        app: hello-world-helm-deploy
+    spec:
+      containers:
+      - name: hello-world-helm-deploy
+        image: hello-world:latest
