@@ -1,0 +1,18 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: hello-world-kust
+  labels:
+    app: hello-world-kust
+spec:
+  replicas: 1
+  revisionHistoryLimit: 2
+  template:
+    metadata:
+      labels:
+        app: hello-world-kust
+    spec:
+      containers:
+      - name: hello-world-kust
+        image: hello-world:latest
+        imagePullPolicy: Always
