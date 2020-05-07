@@ -4,10 +4,10 @@ We're putting together a few fun/getting started sample applications as we explo
 
 1. Easiest ever K8s app
     - Hello World App - Write to logs and exit
-        - docker
-        - docker-compose
-        - K8s 
-            - Job Definition
+        - ~~docker~~
+        - ~~docker-compose~~
+        - ~~K8s~~ 
+            - ~~Job Definition~~
         - K8s (kustomize)
         - K8s (helm)
 
