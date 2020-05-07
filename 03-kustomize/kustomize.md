@@ -1,10 +1,10 @@
 # Check for For Valid Config
 ```
-kubectl apply -k deployment --dry-ruy
+kubectl apply -k deployment --dry-run
 ```
 # Check Config Against Current Deployed State
 ```
-kubectl apply -k deployment --server-dry-ruy
+kubectl apply -k deployment --server-dry-run
 ```
 # Generate Kubernetes Manifest
 ```
