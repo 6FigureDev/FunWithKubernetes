@@ -8,12 +8,12 @@ We're putting together a few fun/getting started sample applications as we explo
         - ~~docker-compose~~
         - ~~K8s~~ 
             - ~~Job Definition~~
-        - K8s (kustomize)
-        - K8s (helm)
+        - ~~K8s (kustomize)~~
+        - ~~K8s (helm)~~
 
 2. Easiest web app in K8s
     - Server Side Blazor Hello World App 
-        - docker-compse
+        - docker-compose
         - K8s (kustomize or helm)
             - Deployment 
             - Service

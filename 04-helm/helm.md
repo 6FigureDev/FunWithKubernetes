@@ -1,3 +1,8 @@
+https://helm.sh/docs/chart_template_guide/getting_started/
+
+https://helm.sh/docs/intro/install/
+Do the binary release... 
+
 helm create hello-world-deploy
 
 helm install helm-hello-world-deploy ./hello-world-deploy
