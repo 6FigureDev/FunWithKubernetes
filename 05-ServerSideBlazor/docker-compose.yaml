@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+    blazor-serverside:        
+        build:
+            context: ./WebApplication1/
+            target: final               
+        ports:
+            - 5000:80
